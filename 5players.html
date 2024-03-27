@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake And Ladder</title>
+    <script src="app.js"> </script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body background="./images/backpic.jpg">
+    <section class="mainplayer container-fluid row">
+        <div class="gridboard col-md-6 ">
+            <div class="grid" id="g100"></div>
+            <div class="grid" id="g99"></div>
+            <div class="grid" id="g98"></div>
+            <div class="grid" id="g97"></div>
+            <div class="grid" id="g96"></div>
+            <div class="grid" id="g95"></div>
+            <div class="grid" id="g94"></div>
+            <div class="grid" id="g93"></div>
+            <div class="grid" id="g92"></div>
+            <div class="grid" id="g91"></div>
+            <div class="grid" id="g81"></div>
+            <div class="grid" id="g82"></div>
+            <div class="grid" id="g83"></div>
+            <div class="grid" id="g84"></div>
+            <div class="grid" id="g85"></div>
+            <div class="grid" id="g86"></div>
+            <div class="grid" id="g87"></div>
+            <div class="grid" id="g88"></div>
+            <div class="grid" id="g89"></div>
+            <div class="grid" id="g90"></div>
+            <div class="grid" id="g80"></div>
+            <div class="grid" id="g79"></div>
+            <div class="grid" id="g78"></div>
+            <div class="grid" id="g77"></div>
+            <div class="grid" id="g76"></div>
+            <div class="grid" id="g75"></div>
+            <div class="grid" id="g74"></div>
+            <div class="grid" id="g73"></div>
+            <div class="grid" id="g72"></div>
+            <div class="grid" id="g71"></div>
+            <div class="grid" id="g61"></div>
+            <div class="grid" id="g62"></div>
+            <div class="grid" id="g63"></div>
+            <div class="grid" id="g64"></div>
+            <div class="grid" id="g65"></div>
+            <div class="grid" id="g66"></div>
+            <div class="grid" id="g67"></div>
+            <div class="grid" id="g68"></div>
+            <div class="grid" id="g69"></div>
+            <div class="grid" id="g70"></div>
+            <div class="grid" id="g60"></div>
+            <div class="grid" id="g59"></div>
+            <div class="grid" id="g58"></div>
+            <div class="grid" id="g57"></div>
+            <div class="grid" id="g56"></div>
+            <div class="grid" id="g55"></div>
+            <div class="grid" id="g54"></div>
+            <div class="grid" id="g53"></div>
+            <div class="grid" id="g52"></div>
+            <div class="grid" id="g51"></div>
+            <div class="grid" id="g41"></div>
+            <div class="grid" id="g42"></div>
+            <div class="grid" id="g43"></div>
+            <div class="grid" id="g44"></div>
+            <div class="grid" id="g45"></div>
+            <div class="grid" id="g46"></div>
+            <div class="grid" id="g47"></div>
+            <div class="grid" id="g48"></div>
+            <div class="grid" id="g49"></div>
+            <div class="grid" id="g50"></div>
+            <div class="grid" id="g40"></div>
+            <div class="grid" id="g39"></div>
+            <div class="grid" id="g38"></div>
+            <div class="grid" id="g37"></div>
+            <div class="grid" id="g36"></div>
+            <div class="grid" id="g35"></div>
+            <div class="grid" id="g34"></div>
+            <div class="grid" id="g33"></div>
+            <div class="grid" id="g32"></div>
+            <div class="grid" id="g31"></div>
+            <div class="grid" id="g21"></div>
+            <div class="grid" id="g22"></div>
+            <div class="grid" id="g23"></div>
+            <div class="grid" id="g24"></div>
+            <div class="grid" id="g25"></div>
+            <div class="grid" id="g26"></div>
+            <div class="grid" id="g27"></div>
+            <div class="grid" id="g28"></div>
+            <div class="grid" id="g29"></div>
+            <div class="grid" id="g30"></div>
+            <div class="grid" id="g20"></div>
+            <div class="grid" id="g19"></div>
+            <div class="grid" id="g18"></div>
+            <div class="grid" id="g17"></div>
+            <div class="grid" id="g16"></div>
+            <div class="grid" id="g15"></div>
+            <div class="grid" id="g14"></div>
+            <div class="grid" id="g13"></div>
+            <div class="grid" id="g12"></div>
+            <div class="grid" id="g11"></div>
+            <div class="grid" id="g1"></div>
+            <div class="grid" id="g2"></div>
+            <div class="grid" id="g3"></div>
+            <div class="grid" id="g4"></div>
+            <div class="grid" id="g5"></div>
+            <div class="grid" id="g6"></div>
+            <div class="grid" id="g7"></div>
+            <div class="grid" id="g8"></div>
+            <div class="grid" id="g9"></div>
+            <div class="grid" id="g10"></div>
+        </div>
+        <div class="col-md-6 text-center rightbox">
+            <img class="logoingame mt-1 " src="images/logo.png">
+            <div class="text-center container-fluid">
+                <div class="msg my-2" id="msg">
+                </div>
+                <div class="tog">
+                    <p  id="tog"> Now it's <span id="col" style="color:rgb(0, 255, 229);"> Sky-Blue's </span> Turn</p>
+                </div>
+                <div class="row">
+                    <div class="dice col">
+                    <img class="mt-2" id="dice-image" src="images/d1.png" alt="dice image">
+                    <button class=" mt-2 mx-3 "  onclick="rollDice5()"><i class="fa-solid fa-dice"></i> Roll</button>
+                    </div>
+                    <div class="icon col">
+                        <div class="icon1"><button onclick="home()"><i class="fa-solid fa-house-chimney-window"></i> HOME</button></div>
+                        <div class="icon2"><button onclick="restart()"><i class="fa-sharp fa-solid fa-rotate-right"></i></i> RESTART</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+        <!--<div class="ladder"> <img src="images/ladder.png"> </div>
+        <div class="snake"> <img src="images/snake1.png"> </div>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
